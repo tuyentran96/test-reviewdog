@@ -1,1 +1,3 @@
-module "test-reviewdog"
+module test-reviewdog
+
+go 1.15
