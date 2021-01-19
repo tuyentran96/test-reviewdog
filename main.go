@@ -6,7 +6,7 @@ func Add()  int{
 	return i
 }
 func main()  {
-	i:=0
+			i:=0
 	i+=1
 	println("test pr 2")
 }
