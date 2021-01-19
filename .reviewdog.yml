@@ -1,6 +1,4 @@
 runner:
-  golangci:
-    cmd: golangci-lin run
   golint:
     cmd: golint ./...
     errorformat:
