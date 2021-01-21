@@ -3,4 +3,4 @@ runner:
     cmd: golangci-lint run --tests=false --out-format=line-number ./...
     errorformat:
       - '%f:%l:%c: %m'
-    level: warning
+    level: error

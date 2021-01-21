@@ -10,5 +10,6 @@ func test1()  {
 	println("Test 1")
 }
 func main() {
+	//referrence
 println("1233")
 }
