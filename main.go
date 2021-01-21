@@ -10,5 +10,5 @@ func test1()  {
 	println("Test 1")
 }
 func main() {
-
+println("1233")
 }
