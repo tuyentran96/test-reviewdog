@@ -12,30 +12,30 @@ linters:
   disable-all: true
   enable:
     - deadcode
-    - errcheck
-    - gosimple
-    - govet
-    - ineffassign
-    - staticcheck
-    - structcheck
-    - typecheck
-    - unused
-    - varcheck
-    - bodyclose
-    - depguard
-    - dogsled
-    - dupl
-    - goconst
-    - gofmt
-    - goimports
-    - golint
-    - goprintffuncname
-    - misspell
-    - nakedret
-    - scopelint
-    - unconvert
-    - whitespace
-    - gocritic
+#    - errcheck
+#    - gosimple
+#    - govet
+#    - ineffassign
+#    - staticcheck
+#    - structcheck
+#    - typecheck
+#    - unused
+#    - varcheck
+#    - bodyclose
+#    - depguard
+#    - dogsled
+#    - dupl
+#    - goconst
+#    - gofmt
+#    - goimports
+#    - golint
+#    - goprintffuncname
+#    - misspell
+#    - nakedret
+#    - scopelint
+#    - unconvert
+#    - whitespace
+#    - gocritic
 
 issues:
   exclude-rules:

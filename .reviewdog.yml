@@ -1,6 +1,8 @@
 runner:
   golangci:
-    cmd: golangci-lint run --tests=false --out-format=line-number ./...
+    cmd: golangci-lint run --out-format=line-number ./...
     errorformat:
-      - '%f:%l:%c: %m'
-    level: error
+      - '%E%f:%l:%c: %m'
+      - '%E%f:%l: %m'
+      - '%C%.%#'
+    level: warning
